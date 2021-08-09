@@ -7,7 +7,6 @@ settings_path = os.path.join(os.path.dirname(__file__), '../settings.txt')
 api_key_path = os.path.join(os.path.dirname(__file__), '../api_key.txt')
 api_key_file = open(api_key_path, 'r')
 api_key = api_key_file.read()
-print(api_key)
 headers = {'Accept': 'application/json'}
 
 #TODO remove global
